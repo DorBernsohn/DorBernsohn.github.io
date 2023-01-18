@@ -5,7 +5,7 @@
 This repository holds the official Jekyll version of the Clean Blog theme on Start Bootstrap!
 
 ## Preview
-
+ 
 [![Clean Blog (Jekyll) Preview](https://startbootstrap.com/assets/img/screenshots/themes/clean-blog-jekyll.png)](http://StartBootstrap.github.io/startbootstrap-clean-blog-jekyll/)
 
 **[View Live Preview](http://StartBootstrap.github.io/startbootstrap-clean-blog-jekyll/)**
@@ -126,7 +126,7 @@ When using the core files, the demo images, posts, and pages are all included wi
     * `facebook_username` (Optional)
     * `github_username` (Optional)
     * `linkedin_username` (Optional)
-    * `instagram_username` (Optional)
+    * `goodreads_username` (Optional)
 
 3. Build your site: `bundle exec jekyll serve`
 

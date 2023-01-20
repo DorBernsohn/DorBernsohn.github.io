@@ -30,6 +30,11 @@
         MathJax.Hub.Config({
         TeX: { equationNumbers: { autoNumber: "AMS" } }
         });
+        MathJax.Hub.Register.StartupHook('TeX Jax Ready', function () {
+          MathJax.InputJax.TeX.prefilterHooks.Add(function (data) {
+            data.math = data.math.replace(/^% <!\[CDATA\[/, '').replace(/%\]\]>$/, '');
+          });
+        });
       </script>
       <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 {% endif %}

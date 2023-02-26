@@ -394,7 +394,7 @@ array([[1.        , 0.93699911, 0.19315731],
 <h2 style="text-align: center;">Kremer's Rho (Kendall's Tau concordance correlation)</h2>
 
 
-As a data scientist, Kremer's Rho, also known as Kendall's Tau concordance correlation, is a non-parametric statistical measure used to evaluate the correlation between two sets of continuous or ordinal data. It is used when the assumptions of linearity and normality made by traditional methods, such as Pearson's correlation coefficient, are not met.
+Kremer's Rho, also known as Kendall's Tau concordance correlation, is a non-parametric statistical measure used to evaluate the correlation between two sets of continuous or ordinal data. It is used when the assumptions of linearity and normality made by traditional methods, such as Pearson's correlation coefficient, are not met.
 
 Kremer's Rho measures the degree of concordance between two sets of observations. Concordance refers to the extent to which the ranks of the values in one set correspond to the ranks of the values in the other set. If the two sets of observations are perfectly correlated, the Kremer's Rho will be 1. If there is no correlation between the sets, the Kremer's Rho will be 0. A negative Kremer's Rho indicates a negative correlation between the sets.
 

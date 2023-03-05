@@ -14,7 +14,7 @@ linkedin_username:  dor-bernsohn-70b2b1146
 goodreads_username: 150080273-dor-bernsohn
 
 # Add your google-analytics ID here to activate google analytics
-google_analytics:   G-S1M7R4WLKN # out your google-analytics code
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 
 # Build settings
 markdown:           kramdown
